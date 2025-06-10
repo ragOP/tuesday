@@ -14,12 +14,12 @@ const App = () => {
   return (
     <Router>
       <Routes>
-      <Route path="/" element={<Home />} />
-        <Route path="/engsf1" element={<Chatbotdq />} />
+      <Route path="/" element={<Chatbotdq2 />} />
+        {/* <Route path="/engsf1" element={<Chatbotdq />} />
         <Route path="/engsfdq" element={<Chatbotdq2 />} />
-        <Route path="/engsf2200" element={<ChatbotTwo />} />
-        <Route path="/engsf1dup" element={<Chatbotdq2 />} />
-        <Route path="/engsf2200dup" element={<ChatbotFour />} />
+        <Route path="/engsf2200" element={<ChatbotTwo />} /> */}
+        <Route path="/engpp" element={<Chatbotdq2 />} />
+        {/* <Route path="/engsf2200dup" element={<ChatbotFour />} /> */}
          <Route path="/spanflex1" element={<Spanflex1 />} />
 
       </Routes>
