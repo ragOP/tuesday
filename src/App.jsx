@@ -7,6 +7,7 @@ import ChatbotFour from './ChatbotFour';
 import Chatbotdq from './Chatbotdq';
 import Chatbotdq2 from './Chatbotdq2';
 import Home from './Home';
+import Spanflex1 from './Spanflex1.tsx';
 
 const App = () => {
   // sds
@@ -19,6 +20,8 @@ const App = () => {
         <Route path="/engsf2200" element={<ChatbotTwo />} />
         <Route path="/engsf1dup" element={<Chatbotdq2 />} />
         <Route path="/engsf2200dup" element={<ChatbotFour />} />
+         <Route path="/spanflex1" element={<Spanflex1 />} />
+
       </Routes>
     </Router>
   );
